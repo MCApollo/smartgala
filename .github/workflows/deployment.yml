@@ -1,0 +1,8 @@
+name: Deployment
+on: [push]
+jobs:
+  deployment:
+    steps:
+      - name: TODO
+        run: |
+          echo "TODO, this should deploy the project"
