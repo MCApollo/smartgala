@@ -4,8 +4,16 @@
   "description": "A auctioneering website (demo)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo todo; exit 1",
+    "run": "echo todo; exit 1",
+    "dev": "echo todo; exit 1",
+    "start": "echo todo; exit 1",
+    "lint": "npx prettier --write ."
   },
   "author": "MCApollo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "prettier": "^2.6.2"
+  }
 }
