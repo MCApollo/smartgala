@@ -15,8 +15,5 @@
   "devDependencies": {
     "jest": "^28.1.0",
     "prettier": "^2.6.2"
-  },
-  "dependencies": {
-    "react-intersection-observer": "^9.2.2"
   }
 }
