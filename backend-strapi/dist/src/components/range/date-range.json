@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_range_date_ranges",
+    "info": {
+        "displayName": "Date Range",
+        "icon": "clock"
+    },
+    "options": {},
+    "attributes": {
+        "Start": {
+            "type": "date",
+            "required": true
+        },
+        "End": {
+            "required": true,
+            "type": "date"
+        }
+    }
+}

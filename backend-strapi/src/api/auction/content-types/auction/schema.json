@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "auctions",
+  "info": {
+    "singularName": "auction",
+    "pluralName": "auctions",
+    "displayName": "Auction",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "Event": {
+      "type": "component",
+      "repeatable": false,
+      "component": "events.event",
+      "required": true
+    },
+    "Items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.items"
+    },
+    "Time": {
+      "type": "component",
+      "repeatable": false,
+      "component": "range.date-range",
+      "required": true
+    }
+  }
+}

@@ -3,20 +3,20 @@ on: [push, pull_request]
 jobs:
   intergration:
     runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
 
-        - name: Use Node.JS
-          uses: actions/setup-node@v1
-          with:
-            node-version: '16.x'
+      - name: Use Node.JS
+        uses: actions/setup-node@v1
+        with:
+          node-version: "16.x"
 
-        - name: Install Dependencies
-          run: npm ci
+      - name: Install Dependencies
+        run: npm ci
 
-        - name: Build Project
-          run: npm run build
+      - name: Build Project
+        run: npm run build
 
-        - name: Test Project
-          run: npm test
+      - name: Test Project
+        run: npm test

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_events_event_s",
+  "info": {
+    "displayName": "Event ",
+    "icon": "square-full",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Photo": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
